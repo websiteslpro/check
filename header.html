@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+
+.headerbottom {
+  overflow: hidden;
+  background-color: #FF851B;
+  padding: 1px;
+}
+
+.headerbottom a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 5px 10px 5px 5px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 45px;
+  border-radius: 4px;
+}
+
+.headerbottom a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.headerbottom a:hover {
+  background-color: white;
+  color: black;
+}
+
+.headerbottom a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.headerbottom-right {
+  float: right;
+}
+
+@media screen and (max-width: 100px) {
+  .headerbottom a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .headerbottom-right {
+    float: none;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+<div class="row">
+
+<div class="col-md-12" style="background-color: #FF851B; color: black;">
+
+  <center>
+	
+	<span style="margin-left: 20px;"> <i class="fa fa-phone"> </i> +91 911 911 1171 </span>
+	<span style="margin-left: 20px;"> <i class="fa fa-envelope-o"> </i> support@lpro.online </span>		
+  
+  </center>
+
+  </div>
+
+</div>
+</div>
+<!-- Modals -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-body">
+									
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											
+										</div>
+										<div class="learnyst-signup-widget"><style> #input-form input{   height: 42px;   border: 1px solid #909090;   border-radius: 2px;   line-height: 24px;   margin-top: 23px;   width:100%;   padding-left: 10px;   box-sizing: border-box; } .btn-fb-login {   font-weight: 700;   font-size: 15px;   letter-spacing: 1.2px;   border-radius: 3px;   line-height: inherit;   background: linear-gradient(#5676bc, #31497b);;   border: 1px solid #293e69;   width: 100%;   height: 42px; } .btn-gplus-login {   font-weight: 700;   font-size: 15px;   letter-spacing: 1.2px;   border-radius: 3px;   line-height: inherit;   background-color: #dd4b39;   border: 1px solid rgba(0,0,0,0.2);   width: 100%;   height: 42px; } .learnyst-btn-template{   width: 100%;   height: 42px;   color: #FFF;   font-family: "Open Sans";   font-weight: 600;   font-size: 17px;   border-radius: 2px;   letter-spacing: 1px;   text-align: center;   display: inline-block;   cursor: pointer; } .learnyst-btn-signup{   background-color: #11a15d;   border: 1px solid #11a15d;   margin-top: 23px; } .learnyst-btn-signup:hover{   background-color: #15904d;   border: 1px solid #15904d; } .learnyst-signup-content{   margin: 0 25px; } .signup_error{   color:#ed1c24;   font-family: "Open Sans";   font-weight: 400;   font-size: 15px; } ::-webkit-input-placeholder {   color: #484848;   font-size: 13px; } :-moz-placeholder { /* Firefox 18- */   color: #484848;   font-size: 13px; } ::-moz-placeholder {  /* Firefox 19+ */   color: #484848;   font-size: 13px; } :-ms-input-placeholder {   color: #484848;   font-size: 13px; } .fb-btn-pos {   position: relative;   text-align: left;   padding-left: 50px;   color: #fff;   font-family: "Open Sans"; } .fb-img-pos {   position: absolute;   top: 0;   left: 0;   background: rgba(255,255,255,0.08); } .fb-or {   font-size:14px;   font-weight:600;   margin:23px 0 0 0;   text-align:center;   color:#484848;   font-family: 'Open Sans'; } /*signup widget ends*/ </style> <div class="learnyst-signup-content">     <center class="signup_error"></center>     <form accept-charset="UTF-8" id="input-form">         <input type="hidden" id="learnystSignup_new_user_user_name" name="user[name]">       <input type="email" autocomplete="off" id="learnystSignup_new_user_user_email" name="user[email]" placeholder="Email" value="" data-validate="true">       <input type="password" autocomplete="off" id="learnystSignup_new_user_user_password" name="user[password]" placeholder="Password" data-validate="true">         <input type="hidden" id="learnystSignup_new_user_user_mobile" name="user[mobile]">         <input type="hidden" id="learnystSignup_new_user_user_place" name="user[place]">         <input type="hidden" id="learnystSignup_new_user_user_city" name="user[city]">         <input type="hidden" id="learnystSignup_new_user_user_state" name="user[state]">         <input type="hidden" id="learnystSignup_new_user_user_country" name="user[country]">         <input type="hidden" id="learnystSignup_new_user_user_institute" name="user[institute]">       <input id="is_buying" name="is_buying" type="hidden" value="0">       <input type="hidden" name="after_login_path" value="" id="after_login_path">       <input id="learnystSignup_new_user_course" name="course[id]" type="hidden" value="0">       <button type="button" class="learnyst-btn-template learnyst-btn-signup js_btn_signup" id="lr_signup_btn" onclick="submitLRSignupForm(151)">Signup for free</button>       <p style="margin-top:6px;"><i style="color:#8c8b8c;font-size:14px;">By clicking 'Sign Up' you are agreeing that you wish to receive periodic emails and/or phone calls.</i></p>     </form>     <p class="fb-or">OR</p>     <button type="button" class="layout-btn btn-fb-login fb-btn-pos" style="margin-top:10px;" id="login_with_fb" onclick="fbSignup(151);">       <img src="./CAT Online Coaching and CAT Online Preparation_ Crack CAT 2019_files/03.png" class="fb-img-pos">         Signup with facebook     </button>     <button type="button" id="gplusSignInButton" class="layout-btn btn-gplus-login fb-btn-pos" style="margin-top:10px;" onclick="gplusSignup(151);"><img src="./CAT Online Coaching and CAT Online Preparation_ Crack CAT 2019_files/fa-google-plus.png" class="fb-img-pos">         Signup with google     </button> </div> </div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+							<div class="modal-dialog">
+								<div class="modal-body">
+									
+									<div class="modal-content">
+									<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											
+										</div>
+										<div class="learnyst-login-widget"><style> .btn-fb-login {   font-weight: 700;   font-size: 15px;   letter-spacing: 1.2px;   border-radius: 3px;   line-height: inherit;   background: linear-gradient(#5676bc, #31497b);;   border: 1px solid #293e69;   width: 100%;   height: 42px; } .btn-gplus-login {   font-weight: 700;   font-size: 15px;   letter-spacing: 1.2px;   border-radius: 3px;   line-height: inherit;   background-color: #dd4b39;   border: 1px solid rgba(0,0,0,0.2);   width: 100%;   height: 42px; } .fb-btn-pos {   position: relative;   text-align: left;   padding-left: 50px;   color: #fff;   font-family: "Open Sans"; } .fb-img-pos {   position: absolute;   top: 0;   left: 0;   background: rgba(255,255,255,0.08); } .fb-or {   font-size:14px;   font-weight:600;   margin:23px 0 0 0;   text-align:center;   color:#484848;   font-family: 'Open Sans'; } #input-form input{   height: 42px;   border: 1px solid #909090;   border-radius: 2px;   line-height: 24px;   margin-top: 23px;   width:100%;   padding-left: 10px;   box-sizing: border-box; } .login_error{   color:#ed1c24;   font-family: "Open Sans";   font-weight: 400;   font-size: 15px; } .learnyst-btn-template{   width: 100%;   height: 42px;   color: #FFF;   font-family: "Open Sans";   font-weight: 600;   font-size: 17px;   border-radius: 2px;   letter-spacing: 1px;   text-align: center;   display: inline-block;   cursor: pointer; } .learnyst-btn-login{   background-color: #11a15d;   border: 1px solid #11a15d;   margin: 23px 0; } .learnyst-btn-login:hover{   background-color: #15904d;   border: 1px solid #15904d; } .learnyst-login-content{   margin: 0 25px; } .learnyst-forgot-pwd{   font-weight:400;   font-size:15px;   line-height:24px;   font-family: 'Open Sans';   color:#11a15d;   border-bottom:1px solid #11a15d;   display:inline-block;   text-decoration:none; } ::-webkit-input-placeholder {    color: #484848;    font-size: 13px; } :-moz-placeholder { /* Firefox 18- */    color: #484848;    font-size: 13px; } ::-moz-placeholder {  /* Firefox 19+ */    color: #484848;    font-size: 13px; } :-ms-input-placeholder {    color: #484848;    font-size: 13px; } </style> <div class="learnyst-login-content">     <center class="login_error"></center>     <form accept-charset="UTF-8" id="input-form">       <input type="email" autocomplete="off" id="lernystLogin_new_user_user_email" name="email" placeholder="Email" value="" data-validate="true">       <input type="password" autocomplete="off" id="lernystLogin_new_user_user_password" name="password" placeholder="Password" data-validate="true">       <button type="button" class="learnyst-btn-template learnyst-btn-login js_btn_login" id="lr_login_btn" onclick="submitLRLoginForm(151)">Login</button>       <center>         <a href="https://learn.2iim.com/passwords/new" class="learnyst-forgot-pwd">Forgot Password?</a>       </center>     </form>     <p class="fb-or">OR</p>     <button type="button" class="layout-btn btn-fb-login fb-btn-pos" style="margin-top:10px;" id="login_with_fb" onclick="fbLogin(151);">       <img src="./CAT Online Coaching and CAT Online Preparation_ Crack CAT 2019_files/03.png" class="fb-img-pos">         Login with facebook     </button>     <button type="button" id="gplusSignInButton" class="layout-btn btn-gplus-login fb-btn-pos" style="margin-top:10px;" onclick="gplusLogin(151);"><img src="./CAT Online Coaching and CAT Online Preparation_ Crack CAT 2019_files/fa-google-plus.png" class="fb-img-pos">         Login with google     </button> </div> </div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
+<div class="headerbottom"> 
+	
+	<a href="#" class="logo"> <img src="finallogo.png" width="150" height="40"> </img> </a>
+	
+	<div class="headerbottom-right">
+		<li><a href="https://online.2iim.com/?utm_source=2iimhome&amp;utm_campaign=Referral#" data-toggle="modal" data-target="#myModal" ga-on="click,auxclick,contextmenu" ga-event-category="Signup Button Click" ga-event-action="online.2iim"><div class="center">Signup</div><span>&nbsp;</span></a>
+     						</li>
+							
+							<li class=""><a href="https://online.2iim.com/?utm_source=2iimhome&amp;utm_campaign=Referral#" data-toggle="modal" data-target="#login" ga-on="click,auxclick,contextmenu" ga-event-category="Login Button Click" ga-event-action="online.2iim"><div class="center">Login</div><span>&nbsp;</span></a>
+     						</li>
+		<a class="active"> The School Pro </a>
+		
+	</div>
+	
+</div>        
+      
+</body>
+<script type="text/javascript">
+ <script type="text/javascript">
+  var receivedLoginWidget = function(data) {
+    document.getElementsByClassName("learnyst-login-widget")[0].innerHTML = data["html"];
+  };
+  
+  var login_widget_script_html = document.createElement('script');
+  login_widget_script_html.src = "//api.learnyst.com/learner/v4/getLoginWidget.json?widget_type=form&callback=receivedLoginWidget&school_id=4789";
+  document.getElementsByTagName('body')[0].appendChild(login_widget_script_html);
+  
+  var login_widget_script_js = document.createElement('script');
+  login_widget_script_js.src = "//api.learnyst.com/learner/v4/getLoginWidgetScript.js?school_id=4789&is_from_other_domain=true";
+  document.getElementsByTagName('body')[0].appendChild(login_widget_script_js);  
+</script><script src="./CAT Online Coaching and CAT Online Preparation_ Crack CAT 2019_files/getLoginWidget.json"></script><script src="./CAT Online Coaching and CAT Online Preparation_ Crack CAT 2019_files/getLoginWidgetScript.js.download"></script>
+ <script type="text/javascript">
+  var receivedSignupWidget = function(data) {
+    document.getElementsByClassName("learnyst-signup-widget")[0].innerHTML = data["html"];
+  };
+  
+  var signup_widget_script_html = document.createElement('script');
+  signup_widget_script_html.src = "//api.learnyst.com/learner/v4/getSignupWidget.json?callback=receivedSignupWidget&school_id=4789";
+  document.getElementsByTagName('body')[0].appendChild(signup_widget_script_html);
+  
+  var signup_widget_script_js = document.createElement('script');
+  signup_widget_script_js.src = "//api.learnyst.com/learner/v4/getSignupWidgetScript?school_id=4789&is_from_other_domain=true";
+  document.getElementsByTagName('body')[0].appendChild(signup_widget_script_js);
+</script><script src="./CAT Online Coaching and CAT Online Preparation_ Crack CAT 2019_files/getSignupWidget.json"></script><script src="./CAT Online Coaching and CAT Online Preparation_ Crack CAT 2019_files/getSignupWidgetScript"></script>
+</html>
